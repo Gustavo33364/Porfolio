@@ -1,0 +1,22 @@
+{
+  "name": "porfolio",
+  "version": "1.0.0",
+  "description": "Portafolio web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gustavo33364"
+  },
+  "keywords": [
+    "Gustavo",
+    "Ayala"
+  ],
+  "author": "GustavoAyala",
+  "license": "ISC",
+  "dependencies": {
+    "eins-modal": "^2.2.2"
+  }
+}

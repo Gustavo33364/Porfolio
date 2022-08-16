@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo.Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/eins-modal/dist/css/eins-modal.min.css">
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+<body>
+    <header>
+        
+        <div class="inicio">
+            <div class="menu">
+               <nav>
+                <ul>
+                    <li>
+                        <a href="#SobreMi">Sobre Mi</a>
+                        <a href="#Portfolio">Portfolio</a>
+                        <a href="#Conocimientos">Conocimientos</a>
+                        <a href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+               </nav> 
+            </div>
+        </div>
+    </header>
+    <section class="briefcase">
+        <div class="briefcase-section" id="Portfolio">
+           <h2><span>Briefcase | </span> Portfolio</h2> 
+           <div class="briefcase-grid">
+
+                <div><a data-modal-id="Porfolio"><img src="./img/porf,img.png" alt="Porfolio"></a></div>
+                <div><a data-modal-id="MundosE"><img src="./img/2022-08-16.png" alt="MundosE"></a></div>
+                <div><a data-modal-id="Desafio"><img src="./img/netflix.jpg" alt="Desafio"></a></div>
+                
+           </div>
+        </div>
+    </section>
+
+
+<section class="skills">
+            <div class="skill">
+                <div class="knowledge-part">
+                    <h2><span>knowledge |</span> Conocimientos</h2>
+                    <div class="knowledge">
+                        <div>
+                            <img src="./img/html-5.png" alt="">
+                            <h3>Html</h3>
+                        </div>
+                        <div>
+                            <img src="./img/css-3.png" alt="">
+                            <h3>Css</h3>
+                        </div>
+                        <div>
+                            <img src="./img/Javascript.png" alt="">
+                            <h3>Javascript</h3>
+                        </div>
+                        <div>
+                            <img src="./img//sass.png" alt="">
+                            <h3>Sass</h3>
+                        </div>
+                        <div>
+                            <img src="./img/mysql.png" alt="">
+                            <h3>Mysql</h3>
+                        </div>
+                        <div>
+                            <img src="./img/Laravel.png" alt="">
+                            <h3>Laravel</h3>
+                        </div>
+                        <div>
+                            <img src="./img/react.png" alt="">
+                            <h3>React</h3>
+                        </div>
+                        <div>
+                            <img src="./img/php.png" alt="">
+                            <h3>Php</h3>
+                        </div>
+
+
+                    </div>
+
+                    
+
+                </div>
+
+                
+                
+            </div>
+            <div class="skill" id="Conocimientos">
+                <div class="tools-part">
+                    <h2><span>Dev tools |</span> Herramientas</h2>
+                    <div class="tools">
+                        <div>
+                            <img src="./img/Github.azul.png" alt="">
+                            <h3>Github</h3>
+                        </div>
+                        <div>
+                            <img src="./img/nodejs.png" alt="">
+                            <h3>Nodejs</h3>
+                        </div>
+                        <div>
+                            <img src="./img/npm.png" alt="">
+                            <h3>Npm</h3>
+                        </div>
+                        <div>
+                            <img src="./img/Vsca.jpg" alt="">
+                            <h3>Visual Studio Code</h3>
+                        </div>
+                        <div>
+                            <img src="./img/api.png" alt="">
+                            <h3>Api</h3>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+</section>
+
+<section class="sobremi" id="SobreMi">
+        <div class="sobremi-flex">
+            <div class="sobremi-info">
+                    <p>
+                        Mi nombre es Gustavo Ayala, soy fullStack freelance emprendedor y amante de la tecnología.
+
+Desde este año he decidido dedicarme como desarrollador web, si bien me forme como fullStack, por gusto personal decidi inclinarme hacia el FrontEnd.
+
+A medida que conozco mas la programacion mas firme se encuentran mis convicciones. Creo que es el medio para poder aportar valor y soluciones a la sociedad.
+
+Si estás buscando profesionalidad y dedicación, ¡cuenta conmigo!
+                    </p>
+
+            </div>
+
+            <div class="social" id="Contacto">
+                    <a href=""><img src="./img/Github.azul.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/gustavo-frontend/"><img src="./img/linkedin.png" alt=""></a>
+                    <a href=""><img src="./img/facebook.png" alt=""></a>
+                    <a href=""><img src="./img/Twitter.png" alt=""></a>
+                    <a href=""><img src="./img/gmail.png" alt=""></a>
+            </div>
+        </div>
+</section>
+
+
+        <footer>
+            <p>Copyright © 2022 Gustavo.dev</p>
+        </footer>
+
+        <div id="Porfolio" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+            <div class="eins-modal-content">
+                <div class="eins-modal-close"></div>
+                    <div class="pw-content">
+                        <div class="eins-modal-preview">
+                            <img src="/img/porf,img.png" alt="">
+                        </div>
+                        <div class="eins-modal-text">
+                            <p>Portafolio Web Personal, Construido con HTML, CSS Y JS. <br>Se usó librerias de npm y se optimizó la página con webpack. Se uso estructura SEO básica para la semántica en buscadores
+                            </p>
+                            <p>También puedes acceder a él desde el repositorio de github</p>
+                            <div class="eins-modal-text-2">
+                                <span>ENLACE:</span><a href="/">https://github.com/Gustavo33364</a>
+                            </div>
+                            <div class="eins-modal-text-3">
+                                <span>Tecnologías Usadas:</span>
+                                <div class="eins-modal-tec">
+                                    <img src="/img/html-5.png" alt="">
+                                    <img src="/img/css-3.png" alt="">
+                                    <img src="/img/Javascript.png" alt="">
+                                    <img src="/img/npm.png" alt="">
+                                   <div>
+                                       <a href="https://github.com/Gustavo33364" target="blank">
+                                      <img src="./img/Github.azul.png" alt=""> 
+                                      <span>/ Ver código de este portafolio desde el repositorio</span></a>
+                                  </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="MundosE" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+            <div class="eins-modal-content">
+                <div class="eins-modal-close"></div>
+                    <div class="pw-content">
+                        <div class="eins-modal-preview">
+                            <img src="/img/2022-08-16.png" alt="">
+                        </div>
+                        <div class="eins-modal-text">
+                            <p>Trabajo practico final para certificacion de fullStack. <br>Construido con React HTML, CSS Y JS. <br>Se usó librerias de npm y se optimizó la página con webpack. Se preparo y subio el trabajo a produccion usando heroku.
+                            </p>
+                            <p>También puedes acceder a él desde el repositorio de github</p>
+                            <div class="eins-modal-text-2">
+                                <span>ENLACE:</span><a href="/">https://pinvacaciones.herokuapp.com/</a>
+                            </div>
+                            <div class="eins-modal-text-3">
+                                <span>Tecnologías Usadas:</span>
+                                <div class="eins-modal-tec">
+                                    <img src="/img/html-5.png" alt="">
+                                    <img src="/img/css-3.png" alt="">
+                                    <img src="/img/Javascript.png" alt="">
+                                    <img src="/img/npm.png" alt="">
+                                    <img src="./img/Laravel.png" alt="">
+                                    <img src="./img/php.png" alt="">
+                                    <img src="./img/mysql.png" alt="">
+                                   <div>
+                                       <a href="https://github.com/Gustavo33364" target="blank">
+                                      <img src="./img/Github.azul.png" alt=""> 
+                                      <span>/ Ver código de este portafolio desde el repositorio</span></a>
+                                  </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="Desafio" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+            <div class="eins-modal-content">
+                <div class="eins-modal-close"></div>
+                    <div class="pw-content">
+                        <div class="eins-modal-preview">
+                            <img src="/img/netflix.jpg" alt="">
+                        </div>
+                        <div class="eins-modal-text">
+                            <p>Portafolio Web Personal, Construido con HTML, CSS Y JS. <br>Se usó librerias de npm y se optimizó la página con webpack. Se uso estructura SEO básica para la semántica en buscadores
+                            </p>
+                            <p>También puedes acceder a él desde el repositorio de github</p>
+                            <div class="eins-modal-text-2">
+                                <span>ENLACE:</span><a href="/">https://desafiomovies.herokuapp.com/echo "# Porfolio" >> README.md</a>
+                            </div>
+                            <div class="eins-modal-text-3">
+                                <span>Tecnologías Usadas:</span>
+                                <div class="eins-modal-tec">
+                                    <img src="/img/html-5.png" alt="">
+                                    <img src="/img/css-3.png" alt="">
+                                    <img src="/img/Javascript.png" alt="">
+                                    <img src="/img/npm.png" alt="">
+                                   <div>
+                                       <a href="https://github.com/Gustavo33364" target="blank">
+                                      <img src="./img/Github.azul.png" alt=""> 
+                                      <span>/ Ver código de este portafolio desde el repositorio</span></a>
+                                  </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+<script src="/node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
+</body>
+</html>
